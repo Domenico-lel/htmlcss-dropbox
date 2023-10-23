@@ -1,6 +1,4 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     /*fontG*/
     font-family: 'Fredoka', sans-serif;
@@ -9,6 +7,9 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     /*fontG*/
+}
+body{
+    margin: 0;
 }
 
 .contenitore_header{
@@ -40,3 +41,37 @@
 }
 
 /*fine header*/
+
+
+#contenitore_benvenuto{
+    height: 220px;
+    background-color: #B4D0E7;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#contenitore_titolo{
+    width: 50%;
+    height:150px ;
+    font-size: 45px;
+
+}
+
+.contenitore_colonna{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+}
+
+.contenitore_colonna .contenitore_pulsante{
+    width: 200px;
+}
+.sfondoprimo{
+    height: 400px;
+    width: 900px;
+    background-color: #B4D0E7;
+}
