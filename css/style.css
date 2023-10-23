@@ -42,8 +42,11 @@ body{
 
 /*fine header*/
 
-.contenitore_generale{
-    width: 1300px;
+.jumbotron{
+    background-color: red;
+    font-size: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 
@@ -61,20 +64,20 @@ body{
 
 }
 
-.contenitore_colonna{
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    height: 300px;
-    width: 300px;
-    background-color: yellow;
-}
+
 
 .contenitore_colonna .contenitore_pulsante{
     width: 200px;
 }
-.sfondoprimo{
-    height: 400px;
-    width: 900px;
-    background-color: #B4D0E7;
+
+h1{
+    font-size: 72px;
+}
+
+.text p{
+    
+}
+
+.text img{
+    width: 100px;
 }
