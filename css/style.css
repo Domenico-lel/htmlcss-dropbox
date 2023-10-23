@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*fontG*/
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /*fontG*/
+}
+
+.contenitore_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+
+}
+
+.contenitore_link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 550px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+.contenitore_pulsante{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #0061FF;
+    height: 37px;
+    width: 66px;
+}
+
+/*fine header*/
