@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     /*fontG*/
     font-family: 'Fredoka', sans-serif;
     font-family: 'Noto Sans Display', sans-serif;
@@ -43,15 +45,13 @@ body{
 /*fine header*/
 
 .jumbotron{
-    background-color: red;
-    font-size: 30px;
+    font-size: 22px;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 
 #contenitore_benvenuto{
-    height: 220px;
     background-color: #B4D0E7;
     text-align: center;
     
@@ -74,10 +74,23 @@ h1{
     font-size: 72px;
 }
 
-.text p{
+.text{
+    height: 290px;
+    width: 300px;
     
 }
 
-.text img{
-    width: 100px;
+.img_section{
+    width: 698px;
 }
+
+.img_section img{
+    width: 100%;
+}
+
+.text-img-section{
+    display: flex;
+    align-items: center;
+}
+
+/*fine parte benvenuto*/
