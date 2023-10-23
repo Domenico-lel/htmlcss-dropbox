@@ -42,13 +42,16 @@ body{
 
 /*fine header*/
 
+.contenitore_generale{
+    width: 1300px;
+}
+
 
 #contenitore_benvenuto{
     height: 220px;
     background-color: #B4D0E7;
     text-align: center;
-    display: flex;
-    justify-content: center;
+    
 }
 
 #contenitore_titolo{
