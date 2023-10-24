@@ -1,17 +1,13 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    
     /*fontG*/
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Noto Sans Display', sans-serif;
-    font-family: 'Nunito', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
     /*fontG*/
 }
 body{
     margin: 0;
+    padding: 0;
 }
 
 .contenitore_header{
@@ -39,7 +35,7 @@ body{
     color: #fff;
     background-color: #0061FF;
     height: 37px;
-    width: 66px;
+    max-width: 66px;
 }
 
 /*fine header*/
@@ -53,7 +49,7 @@ body{
 
 #contenitore_benvenuto{
     background-color: #B4D0E7;
-    text-align: center;
+    height: 745px;
     
 }
 
@@ -64,24 +60,27 @@ body{
 
 }
 
-
-
 .contenitore_colonna .contenitore_pulsante{
     width: 200px;
 }
 
 h1{
     font-size: 72px;
+    
+}
+h2{
+    font-size: 47px;
 }
 
 .text{
     height: 290px;
     width: 300px;
     
+    
 }
 
 .img_section{
-    width: 698px;
+    width: 598px;
 }
 
 .img_section img{
@@ -94,3 +93,74 @@ h1{
 }
 
 /*fine parte benvenuto*/
+
+.contenitore_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sezione_abbonamenti{
+    max-width: 834px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+.pulsanti_abbonamenti span{
+    padding-right:40px;
+}
+
+.colonna{
+    width: 230px;
+    height: 1000px;
+    border: gray solid 1px;
+    margin-top: 25px;
+}
+.rettangolo_colonna{
+    height: 30px;
+    border: gray solid 1px;
+    text-align: center;
+}
+
+.sottocontenitore_colonna{
+    margin: 12px;
+
+}
+
+.costo_abb p, b{
+    font-size: 15px;
+    
+}
+
+.costo_abb:last-child{
+    color: gray;
+}
+
+.vantaggi_a_disposizione div{
+    padding-top: 25px;
+}
+
+.contenitore_pulsante{
+    width: 100px;
+}
+
+.pulsante_provagratuita{
+    height: 27px;
+    width: 200px;
+    background-color: #0061FF;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+p i{
+    color: blue;
+}
+
+#underline{
+    height: 1px;
+    width: 60px;
+    background-color: lightgray;
+    border-color: lightgray;
+}
