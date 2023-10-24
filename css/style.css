@@ -172,18 +172,24 @@ p i{
 
 /*fine sezione abbonamenti*/
 
-.team_experience{
+.team_experience_top{
     margin: 0 auto;
     margin-top: 40px;
-    height: 230px;
     width: 835px;
     border: solid 1px lightgray; 
+}
+.team_experience{
+    margin: 0 auto;
+    width: 835px;
+    border: solid 1px lightgray; 
+    display: flex;
+    justify-content: space-around;
+
 }
 
 #contenitore_grandeexp{
     width: 69%;
     padding-left: 20px;
-    height: calc(100% - 30px);
 }
 
 #contenitore_grandeexp h4{
@@ -192,4 +198,38 @@ p i{
 
 #contenitore_grandeexp h3{
     font-size: 24px;
+}
+
+/*fine seconda sezione abbonamenti*/
+
+.cont-bianco{
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.contenitore1{
+    height: 290px;
+    width: 600px;
+}
+
+.fotopartn{
+    width: 100%;
+}
+
+.contenitore2{
+    height: 290px;
+    width: 300px;
+    padding: 40px;
+}
+
+.pulsante_trasp{
+    height: 27px;
+    width: 180px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    border: solid 2px lightgray;
 }
