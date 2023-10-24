@@ -113,13 +113,13 @@ h2{
 
 .colonna{
     width: 230px;
-    height: 1000px;
-    border: gray solid 1px;
+    height: 1080px;
+    border: lightgray solid 1px;
     margin-top: 25px;
 }
 .rettangolo_colonna{
     height: 30px;
-    border: gray solid 1px;
+    border: lightgray solid 1px;
     text-align: center;
 }
 
@@ -134,11 +134,12 @@ h2{
 }
 
 .costo_abb:last-child{
-    color: gray;
+    color: lightgray;
 }
 
 .vantaggi_a_disposizione div{
-    padding-top: 25px;
+    padding-top: 15px;
+    font-size: 20px;
 }
 
 .contenitore_pulsante{
@@ -163,4 +164,23 @@ p i{
     width: 60px;
     background-color: lightgray;
     border-color: lightgray;
+}
+
+.testo_inbassocolonna{
+    font-size: 20px;
+}
+
+/*fine sezione abbonamenti*/
+
+.team_experience{
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 210px;
+    width: 835px;
+    border: solid 1px lightgray; 
+}
+
+
+.pulsante_provagratuita :last-child{
+    
 }
