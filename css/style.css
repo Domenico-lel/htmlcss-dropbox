@@ -281,4 +281,17 @@ p i{
     color: blue;
     font-size:20px ;
 }
+/*fine 500000*/
 
+.cont_colorato{
+    height: 500px;
+    background-color: violet;
+}
+
+.verde{
+    height: 250px;
+    width: calc(100%/6);
+    background-image: url(../img/designit.svg);
+    background-size:cover;
+    background-color: lightgreen;
+}
