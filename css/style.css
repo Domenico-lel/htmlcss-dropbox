@@ -285,13 +285,102 @@ p i{
 
 .cont_colorato{
     height: 500px;
-    background-color: violet;
+    display: flex;
+    flex-wrap: wrap;
 }
-
+/*barattolo verde*/
 .verde{
     height: 250px;
     width: calc(100%/6);
-    background-image: url(../img/designit.svg);
-    background-size:cover;
-    background-color: lightgreen;
+    background-color: #A2D39B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
 }
+.verde img{
+    width: 200px;
+}
+/*barattolo verde*/
+
+/*barattolo viola*/
+.viola{
+    height: 250px;
+    width: calc(100%/6);
+    background-color: #61082B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.viola img{
+    width: 180px;
+}
+/*barattolo viola*/
+
+/*barattolo grigio grande*/
+.grigio_grande{
+    height: 500px;
+    width: calc(100%/3);
+    background-color: rgba(230, 230, 230, 0.945);
+    display: flex;
+    flex-direction: column;
+
+}
+.grigio_grande img{
+    width: 180px;
+}
+
+#lineabarattolo{
+    height: 1px;
+    width: 60px;
+    background-color: black;
+    border-color: black;
+    margin-top: 20px;
+}
+
+.sottocontenitore_grigio{
+    padding: 30px;
+}
+/*barattolo grigio grande*/
+
+/*barattolo fuxia*/
+.fuxia{
+    height: 250px;
+    width: calc(100%/6);
+    background-color:#D5001F ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fuxia img{
+    width: 180px;
+}
+/*barattolo fuxia*/
+
+/*barattolo lightpurple*/
+.lightpurple{
+    height: 250px;
+    width: calc(100%/6);
+    background-color: #B4D0E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lightpurple img{
+    width: 180px;
+}
+/*barattolo lightpurple*/
+
+/*barattolo blu*/
+.blu{
+    height: 250px;
+    width: calc(100%/6);
+    background-color: #0093CE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blu img{
+    width: 180px;
+}
+/*barattolo blu*/
