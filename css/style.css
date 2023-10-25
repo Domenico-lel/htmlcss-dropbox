@@ -287,11 +287,13 @@ p i{
     height: 500px;
     display: flex;
     flex-wrap: wrap;
+    width: calc(100%/3);
+    background-color: #D5001F;
 }
 /*barattolo verde*/
 .verde{
     height: 250px;
-    width: calc(100%/6);
+    width: calc(100%/2);
     background-color: #A2D39B;
     display: flex;
     align-items: center;
@@ -306,7 +308,7 @@ p i{
 /*barattolo viola*/
 .viola{
     height: 250px;
-    width: calc(100%/6);
+    width: calc(100%/2);
     background-color: #61082B;
     display: flex;
     align-items: center;
@@ -322,8 +324,7 @@ p i{
     height: 500px;
     width: calc(100%/3);
     background-color: rgba(230, 230, 230, 0.945);
-    display: flex;
-    flex-direction: column;
+    display: flex;celeste
 
 }
 .grigio_grande img{
@@ -346,8 +347,7 @@ p i{
 /*barattolo fuxia*/
 .fuxia{
     height: 250px;
-    width: calc(100%/6);
-    background-color:#D5001F ;
+    width: calc(100%/2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -358,9 +358,22 @@ p i{
 /*barattolo fuxia*/
 
 /*barattolo lightpurple*/
+.arancio{
+    height: 250px;
+    width: calc(100%/2);
+    background-color: #FF1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arancio img{
+    width: 180px;
+}
+/*barattolo lightpurple*/
+
 .lightpurple{
     height: 250px;
-    width: calc(100%/6);
+    width: calc(100%/2);
     background-color: #B4D0E7;
     display: flex;
     align-items: center;
@@ -369,13 +382,26 @@ p i{
 .lightpurple img{
     width: 180px;
 }
-/*barattolo lightpurple*/
+
+/*barattolo celeste*/
+.celeste{
+    height: 250px;
+    width: calc(100%/2);
+    background-color: #0093CE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.celeste img{
+    width: 180px;
+}
+/*barattolo celeste*/
 
 /*barattolo blu*/
 .blu{
     height: 250px;
-    width: calc(100%/6);
-    background-color: #0093CE;
+    width: calc(100%/2);
+    background-color: #0D2481;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -384,3 +410,21 @@ p i{
     width: 180px;
 }
 /*barattolo blu*/
+
+/*barattolo giallo*/
+.giallo{
+    height: 250px;
+    width: calc(100%/2);
+    background-color: #FFD830;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.giallo img{
+    width: 180px;
+}
+/*barattolo giallo*/
+
+.display_flex{
+    display: flex;
+}
