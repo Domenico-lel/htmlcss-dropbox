@@ -235,22 +235,23 @@ p i{
 /*fine personal trainer*/
 
 .contenitore_operazionidropbox{
-    height: 700px;
-    background-color: red;
+    height: 1025px;
+    margin: 0 auto;
 }
 
 .alcentro{
     margin: 0 auto;
-    background-color: green;
     width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .contenitori{
     height: 170px;
     width: 200px;
     object-fit: contain;
-    background-color: #0061FF;
-    justify-content: space-around;
+    
 }
 
 .contenitori img{
@@ -260,7 +261,6 @@ p i{
 
 .scritta_sopratab{
     margin: 0 auto;
-    background-color: green;
     width: 50%;
 }
 
