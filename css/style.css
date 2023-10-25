@@ -235,7 +235,7 @@ p i{
 /*fine personal trainer*/
 
 .contenitore_operazionidropbox{
-    height: 1025px;
+    height: 1050px;
     margin: 0 auto;
 }
 
@@ -262,5 +262,23 @@ p i{
 .scritta_sopratab{
     margin: 0 auto;
     width: 50%;
+}
+
+/*fine operazioni dropbox*/
+
+
+.contenitore_500{
+    height: 225px;
+    margin: 0 auto;
+}
+
+.testo_dentro{
+    margin: 0 auto;
+    width: 44%;
+}
+
+.testo_dentro i{
+    color: blue;
+    font-size:20px ;
 }
 
