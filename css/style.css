@@ -324,7 +324,7 @@ p i{
     height: 500px;
     width: calc(100%/3);
     background-color: rgba(230, 230, 230, 0.945);
-    display: flex;celeste
+    display: flex;
 
 }
 .grigio_grande img{
@@ -370,7 +370,6 @@ p i{
     width: 180px;
 }
 /*barattolo lightpurple*/
-
 .lightpurple{
     height: 250px;
     width: calc(100%/2);
@@ -382,6 +381,7 @@ p i{
 .lightpurple img{
     width: 180px;
 }
+/*barattolo lightpurple*/
 
 /*barattolo celeste*/
 .celeste{
@@ -427,4 +427,31 @@ p i{
 
 .display_flex{
     display: flex;
+}
+
+.cont_portadropbox{
+    height: 350px;
+    width: 100%;
+    background-color: #B4D0E7;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 100px;
+}
+
+.style_portdropbox{
+    height: 20%;
+    width: 540px;
+}
+
+.contenitore_pulsante{
+
+}
+
+.style_portdropbox h2{
+    color:#61082B ;
+}
+
+.pulsante_trasp:last-child{
+    background-color: #fff;
 }
