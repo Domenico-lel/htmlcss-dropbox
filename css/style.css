@@ -455,3 +455,39 @@ p i{
 .pulsante_trasp:last-child{
     background-color: #fff;
 }
+
+.contenitore_domfreq{
+    height: 270px;
+}
+
+.contenitore_gencentro{
+    margin: 0 auto;
+    width: 40%;
+}
+
+.contenitore_gencentro b{
+}
+
+.ahr{
+    border: solid 1px black;
+    margin-top: 20px;
+}
+
+footer{
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    background-color:#000;
+}
+
+footer section{
+    padding: 30px
+}
+
+.lineae{
+    width: 60%;
+    height: 1px;
+    border: solid 1px #fff;
+}
